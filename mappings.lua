@@ -33,6 +33,11 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<C-e>"] = { "<cmd>Neotree toggle<cr>", desc = "Toggle Explorer" },
+
+     -- TODO: Clipboard is not working
+     -- ["<leader>a"] = { "<cmd>l :let @\" = expand(\"%\")<cr>" },
+     ["<C-u>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle Center Terminal" }, 
+     ["<leader>Q"] = { "<cmd>exit<cr>" },
   },
   t = {
     -- setting a mapping to false will disable it
