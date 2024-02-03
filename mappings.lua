@@ -43,4 +43,9 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    -- Identation like a VSCode
+    ["<"] = { "<gv", desc = "Indent Left" },
+    [">"] = { ">gv", desc = "Indent Right" },
+  }
 }
