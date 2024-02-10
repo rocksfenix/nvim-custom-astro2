@@ -18,7 +18,11 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  -- colorscheme = "iceberg",
+  -- colorscheme = "terafox",
+  -- colorscheme = "neosolarized",
+  colorscheme = "tokyonight-night",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
